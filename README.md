@@ -81,37 +81,138 @@ This mini project covers several foundational Python programs designed to streng
 
 ---
 
-## 🔐 Caesar Cipher – Custom Encryption & Decryption
+### 9. Prime Number Check
+**Approach:**  
+Checked divisibility of number from 2 to √n.
 
-### Approach
-The Caesar Cipher is implemented manually to demonstrate the fundamentals of encryption. The user inputs plain text and a key (number of positions to shift), and the program returns encrypted or decrypted text depending on the mode.
+**Challenges Faced:**  
+Understanding loop range and efficiency.
 
-### Challenges
-- Ensuring correct handling of both uppercase and lowercase letters.
-- Preserving special characters and spacing.
-- Managing wrap-around when letters go beyond `'Z'` or `'z'`.
-
-### Solution
-- Used `ord()` to get ASCII value.
-- Normalized position to 0–25 range using base values (`'A'` or `'a'`).
-- Applied `(position + shift) % 26` for wrap-around.
-- Converted result back to character using `chr()`.
-- For decryption, used the same function with a negative shift.
+**Learning:**  
+Gained knowledge about prime number checking logic.
 
 ---
 
-## 📘 What I Learned
+### 10. Sum of Digits
+**Approach:**  
+Converted number to string, iterated through digits, and summed them.
 
-This project helped reinforce key programming skills such as:
-- Writing clean and modular code using functions.
-- Mastering loops, conditionals, and string manipulations.
-- Understanding how basic encryption techniques work.
+**Challenges Faced:**  
+Handling negative numbers by using absolute value.
 
-The Caesar Cipher task gave me hands-on experience with basic encryption and improved my ability to reflect and communicate technical solutions — a crucial skill for any future developer.
+**Learning:**  
+Learned digit-wise operations.
 
 ---
 
-## ✅ Conclusion
+### 11. LCM and GCD
+**Approach:**  
+Used Python’s `math.gcd()` for GCD and formula for LCM.
 
-This mini project was a great opportunity to strengthen Python fundamentals and explore real-world logic applications. It boosted both my coding skills and confidence in problem-solving and technical documentation.
+**Challenges Faced:**  
+Understanding GCD-LCM relationship.
 
+**Learning:**  
+Learned use of built-in math library and number theory basics.
+
+---
+
+### 12. List Reversal (Without Built-in reverse())
+**Approach:**  
+Reversed a list manually using two-pointer method.
+
+**Challenges Faced:**  
+Handling index swapping correctly.
+
+**Learning:**  
+Strengthened knowledge of list indexing.
+
+---
+
+### 13. Sort a List
+**Approach:**  
+Used Python’s built-in `sorted()` function to sort the list.
+
+**Challenges Faced:**  
+None.
+
+**Learning:**  
+Practiced use of built-in functions.
+
+---
+
+### 14. Remove Duplicates from List
+**Approach:**  
+Converted list to set and back to list to remove duplicates.
+
+**Challenges Faced:**  
+Preserving original order (could improve using collections in future).
+
+**Learning:**  
+Learned about Python sets and their properties.
+
+---
+
+### 15. String Length (Without len())
+**Approach:**  
+Manually counted characters in a string using a loop.
+
+**Challenges Faced:**  
+None.
+
+**Learning:**  
+Strengthened looping concepts.
+
+---
+
+### 16. Count Vowels and Consonants
+**Approach:**  
+Iterated through each character and checked if it’s a vowel or consonant.
+
+**Challenges Faced:**  
+Differentiating between vowels, consonants, and non-alphabet characters.
+
+**Learning:**  
+Improved string iteration and conditional checks.
+
+---
+
+### 17. Caesar Cipher (Encryption & Decryption)
+**Approach:**  
+Shifted each letter by a key value (both for encryption and decryption).
+
+**Challenges Faced:**
+- Handling wrap-around cases for 'z' and 'Z'.
+- Maintaining case sensitivity.
+- Ignoring special characters.
+
+**Learning:**  
+Learned basics of text encryption and decryption.
+
+---
+
+### 18. Maze Generator and Solver
+**Approach:**  
+Created a simple 2D maze using lists and solved it using depth-first search (DFS) or similar traversal.
+
+**Challenges Faced:**
+- Representing the maze grid.
+- Finding a path from start to end.
+- Handling boundary conditions.
+
+**Learning:**  
+Understood recursion and backtracking. Gained knowledge of problem-solving in grid-based environments.
+
+---
+
+## ✅ Conclusion:
+
+This mini project helped me:
+
+- Strengthen my core Python programming skills.
+- Learn how to write clean functions.
+- Practice loops, conditionals, string manipulation, list operations, and basic algorithms.
+- Implement simple encryption techniques like Caesar Cipher.
+- Work on logic building and problem-solving.
+
+---
